@@ -10,7 +10,6 @@
  * Descriciption: prints is positive  if n is positive, 
  * is zero if n is 0 or is negathive otherwise.
  * Return: returns integer value of 0 if the program ran succesfully
- *
  */
 int main(void)
 {
