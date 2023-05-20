@@ -7,7 +7,7 @@
  */
 int main()
 {
-	for (i = 98; i <= 122; i++)
+	for (int i = 98; i <= 122; i++)
 	{
 		putchar("%c\n", i);
 	}
