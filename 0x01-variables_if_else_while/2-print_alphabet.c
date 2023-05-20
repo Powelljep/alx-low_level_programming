@@ -7,9 +7,11 @@
  */
 int main()
 {
-	for (int i = 98; i <= 122; i++)
+	int i = 98;
+	while( i <= 122)
 	{
 		putchar("%c\n", i);
+		i++;
 	}
 	return (0);
 }
