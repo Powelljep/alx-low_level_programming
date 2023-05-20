@@ -4,6 +4,7 @@
 #include <stdio.h>
 
 /* betty style doc for function main goes there */
+./betty-style.pl main.c
 int main(void)
 {
 	int n;
