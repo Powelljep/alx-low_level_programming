@@ -4,7 +4,10 @@
 #include <stdio.h>
 
 /* betty style doc for function main goes there */
-./betty-style.pl main.c
+/**
+ * Main is the entry point
+ *
+ * /
 int main(void)
 {
 	int n;
