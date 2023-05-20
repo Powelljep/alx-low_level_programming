@@ -7,7 +7,7 @@
 /**
  * Main is the entry point
  *
- * /
+ */
 int main(void)
 {
 	int n;
