@@ -14,12 +14,12 @@ int main(void)
 	{
 		for (j = 49; j <= 56; j++)
 		{
-			if(i >= j)
+			if (i >= j)
 				continue;
 			for (k = 50; k <= 57; k++)
 			{
 				if (j >= k)
-				       continue;
+					continue;
 				putchar(i);
 				putchar(j);
 				putchar(k);
