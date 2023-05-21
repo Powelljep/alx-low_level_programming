@@ -14,7 +14,7 @@ int main(void)
 	{
 		for(j = 49; j <= 56; j++)
 		{
-            		if(i == 56 && j == 57)
+            		if(i == 57 && j == 56)
             		{
                 		break;
             		}
