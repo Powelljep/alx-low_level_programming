@@ -14,14 +14,14 @@ int main(void)
 	{
 		for (j = 48; j <= 57; j++)
 		{
-			if (!j)
+			if (j <= i)
 				continue;
 			putchar(i);
 			putchar(j);
 			if ( i == 56 && j == 57)
 				continue;
-			putchar(32);
 			putchar(44);
+			putchar(32);
 
 		}
 	}
