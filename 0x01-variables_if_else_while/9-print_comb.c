@@ -17,6 +17,8 @@ int main(void)
 		if (i == 57)
 		{
 			continue;
+		} else
+		{
 			putchar(32);
 		}
 	}
