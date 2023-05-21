@@ -16,14 +16,12 @@ int main(void)
 		{
             		if(i == 56 && j == 57)
             		{
-                		continue;
-            		} else
-            		{
-				putchar(i);
-				putchar(j);
-                  		putchar(44);
-                  		putchar(32);
+                		break;
             		}
+			putchar(i);
+			putchar(j);
+                  	putchar(44);
+                  	putchar(32);
        		}
 	}	
 	return (0);
