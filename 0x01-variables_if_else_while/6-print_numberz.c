@@ -2,8 +2,8 @@
 /**
  * main - entry point
  *
- * Description: print numbers in ascii 
- * Return: returns 0 when the program runs successfully 
+ * Description: print numbers in ascii.
+ * Return: returns 0 when the program runs successfully.
  */
 int main(void)
 {
