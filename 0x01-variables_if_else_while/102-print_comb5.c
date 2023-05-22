@@ -21,6 +21,8 @@ int main(void)
 					    break;
 				    if (i == k && j == l)
 					    continue;
+				    if (k == 48 && l == 48)
+					    continue;
                                    	putchar(i);
                                         putchar(j);
                                         putchar(32);
