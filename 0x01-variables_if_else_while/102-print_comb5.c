@@ -15,7 +15,7 @@ int main(void)
                 {
                         for (k = 48; k<= 57; k++)
                         {
-                                for (l = 49; l<= 57; l++)
+                                for (l = 48; l<= 57; l++)
                                 {
                                     if (i == 57 && j == 57 && k == 57 && l == 57)
 					    break;
