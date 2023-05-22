@@ -17,10 +17,6 @@ int main(void)
 			{
 				for (l = 49; l<= 57; l++)
 				{
-					if(i == 48 && j == 48 && k == 48 && l == 48)
-						continue;
-					if(k == 49 && l == 48)
-                        			continue;
 					if(i == 57 && j == 57 && k == 57 && l == 57)
 						break;
 					putchar(i);
