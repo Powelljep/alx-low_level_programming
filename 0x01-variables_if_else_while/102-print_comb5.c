@@ -19,14 +19,14 @@ int main(void)
                                 for (l = 48; l <= 57; l++)
                                 {
                                     if (i == 48 && j == 48 && k == 48 && l == 48)
-                                    continue;
-                                    if ( i == 57 && j == 57 && k == 57 && l == 57 )
-                                    continue;
+					    continue;
                                         putchar(i);
                                         putchar(j);
                                         putchar(32);
                                         putchar(k);
                                         putchar(l);
+					if ( i == 57 && j == 57 && k == 57 && l == 57 )
+                                    continue;
                                         putchar(44);
                                         putchar(32);
 
