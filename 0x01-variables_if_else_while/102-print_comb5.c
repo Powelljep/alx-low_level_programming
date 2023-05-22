@@ -9,19 +9,20 @@
 int main(void)
 {
 	int i, j, k, l;
-        
-	for (i = 48; i <= 57; i++)
+        for (i = 48; i <= 57; i++)
         {
                 for (j = 48; j <= 57; j++)
                 {
                         for (k = 48; k<= 57; k++)
                         {
-                                for (l = 48; l<= 57; l++)
+                                for (l = 49; l<= 57; l++)
                                 {
-                                        if (i == 57 && j == 57 && k == 57 && l == 57)
+                                    if (i == 57 && j == 57 && k == 57 && l == 57)
                                                 break;
-					if ( i == k && j == l) 
+                                    if ( i == k && j == l) 
                                         continue;
+                                    
+                               
                                         putchar(i);
                                         putchar(j);
                                         putchar(32);
@@ -36,5 +37,5 @@ int main(void)
                 }
         }
         putchar('\n');
-	return (0);
+        return (0);
 }
