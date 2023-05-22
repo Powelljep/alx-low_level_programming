@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	int i, j, k, l;
+	  int i, j, k, l;
 
         for (i = 48; i <= 57; i++)
         {
@@ -16,24 +16,28 @@ int main(void)
                 {
                         for (k = 48; k <= 57; k++)
                         {
-                                for (l = 48; l <= 57; l++)
+                                for (l = 49; l <= 57; l++)
                                 {
-					if (i == 57 && j == 57 && k == 57 && l == 57)
-                                        	continue;
+                                      if (i == 57 && j == 57 && k == 57 && l == 57) {
+                                          break;
+                                      }else {
                                         putchar(i);
                                         putchar(j);
                                         putchar(32);
                                         putchar(k);
                                         putchar(l);
-					if (i == 57 && j == 57 && k == 57 && l == 57)
-                                    		continue;
+                                        if (i == 57 && j == 57 && k == 57 && l == 56)
+                                        	continue;
                                         putchar(44);
-                                        putchar(32);
+                       			putchar(32);
+                                      }
+
+
+
 
                                 }
                         }
                 }
         }
         putchar('\n');
-	return (0);
 }
