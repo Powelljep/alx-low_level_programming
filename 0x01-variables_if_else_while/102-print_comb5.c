@@ -8,21 +8,22 @@
  */
 int main(void)
 {
-	int i, j;
+	int i, j, k;
 
 	for (i = 48; i <= 57; i++)
 	{
 		for (j = 48; j <= 57; j++)
 		{
-			if (i >= j)
-				continue;
-			putchar(i);
-			putchar(i);
-			putchar(32);
-			putchar(i);
-			putchar(j);
-			putchar(44);
-			putchar(32);
+			for (k = 48; k <= 57; k++)
+			{
+				putchar(i);
+                        	putchar(i);
+                        	putchar(32);
+                        	putchar(j);
+                        	putchar(k);
+                        	putchar(44);
+                        	putchar(32);
+			}
 		}
 	}
 	putchar('\n');
