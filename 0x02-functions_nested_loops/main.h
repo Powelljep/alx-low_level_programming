@@ -6,8 +6,8 @@ void _putchar()
  * Description: the function prints the string putchar.
  * Return: the function returns void and prints putchar on the console.
  */
-void _putchar()
-{
+void _putchar(){
+
 	putchar(95);
         putchar(112);
         putchar(117);
