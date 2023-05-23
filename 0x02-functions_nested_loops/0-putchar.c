@@ -1,11 +1,9 @@
-#include <stdio.h>
 #include "main.h"
-
 /**
- * main - prints the word _putchar.
+ * main - entry point to the program
  *
- * Description: prints putchar.
- * Return: returns 0 if the program runs successfully.
+ * Description: prints _putchar
+ * Return: returns void
  */
 int main(void)
 {
