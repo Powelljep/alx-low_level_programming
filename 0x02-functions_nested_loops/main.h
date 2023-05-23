@@ -1,4 +1,6 @@
 #include <stdio.h>
+#ifndef MAIN
+#define MAIN
 /**
  * _putchar - prints the string "_putchar".
  *
@@ -17,3 +19,4 @@ void _putchar(void) {
         putchar(114);
         putchar('\n');
 }
+#endif
