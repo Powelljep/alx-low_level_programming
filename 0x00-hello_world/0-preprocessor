@@ -1,2 +1,2 @@
 #! /bin/bash
-echo "$CFILE" > main.c && gcc -o c main.c
+gcc "$CFILE" -o c
