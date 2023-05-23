@@ -1,12 +1,12 @@
 #include <stdio.h>
-_putchar(void)
+_putchar()
 /**
  * _putchar - prints the string "_putchar".
  *
  * Description: the function prints the string putchar.
  * Return: the function returns void and prints putchar on the console.
  */
-void _putchar(void)
+void _putchar()
 {
 	putchar(95);
         putchar(112);
