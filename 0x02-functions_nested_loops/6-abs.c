@@ -14,5 +14,5 @@ int _abs(int val)
 
 	value = signedval;
 	value = (signedval >= 0 ? signedval : -signedval);
-	return (value); 
+	return(value); 
 }
