@@ -9,9 +9,9 @@
  */
 int _abs(int val)
 {
-	unsigned int value;
-	if (val >= 0)
-		return (val);
-	value = (unsigned int) val;
-	return (value);
+	 unsigned int value;
+	 int signedval = val;
+	 value = signedval;
+	 value = (signedval >= 0 ? signedval:-signedval);
+	return (value); 
 }
