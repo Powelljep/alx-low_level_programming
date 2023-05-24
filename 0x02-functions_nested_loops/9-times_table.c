@@ -18,10 +18,10 @@ void times_table(void)
 			printf("%d", i*j);
 			if (i != 9)
 			{
-				print(", ");
+				printf(", ");
 			}
 			if (i == 9)
-				print("\n");
+				printf("\n");
 		}
 	}
 }
