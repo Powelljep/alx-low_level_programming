@@ -4,9 +4,9 @@
  *
  * Description: prints the multiples of natural
  * numbers which are multiples of 3 and 5.
- * Return: returns void.
+ * Return: returns 0.
  */
-void main(void)
+int main(void)
 {
 	int i, sum;
 
