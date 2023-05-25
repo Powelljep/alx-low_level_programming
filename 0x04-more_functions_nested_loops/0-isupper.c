@@ -9,8 +9,6 @@
  */
 int _isupper(int c)
 {
-	int i;
-
 	if (isupper(c);)
 		return (1);
 	return (0);
