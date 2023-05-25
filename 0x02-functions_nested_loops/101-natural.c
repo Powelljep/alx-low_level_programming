@@ -1,12 +1,12 @@
 #include <stdio.h>
 /**
- * natural_nums - prints sum of multiples
+ * main - prints sum of multiples
  *
  * Description: prints the multiples of natural
  * numbers which are multiples of 3 and 5.
  * Return: returns void.
  */
-void natural_nums(void)
+void main(void)
 {
 	int i, sum;
 
@@ -17,4 +17,5 @@ void natural_nums(void)
 			sum += i;
 		}
 	}
+	return (0);
 }
