@@ -17,7 +17,7 @@ int main(void)
 		next += prev + curr;
 		prev = curr;
 		curr = next;
-		couter ++;
+		counter ++;
 
 	}
 }
