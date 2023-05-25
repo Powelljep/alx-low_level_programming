@@ -10,21 +10,20 @@
 void print_times_table(int n)
 {
 	int i, j;
-
-        for (i = 0; i <= n; i++)
-        {
-                for (j = 0; j <= n; j++)
-                {
-                        if (i * j <= n)
-                                printf(" %d", i * j);
-                        else
-                                printf("%d", i * j);
-                        if (j < n)
-                                printf(",");
-                        if (j == n)
-                                printf("\n");
-                        else
-                                printf(" ");
-                }
-        }
+	for (i = 0; i <= n; i++)
+	{
+		for (j = 0; j <= n; j++)
+		{
+			if (i * j <= n)
+				printf("  %d", i * j);
+			else
+				printf("%d", i * j);
+			if (j < n)
+				printf(",");
+			if (j == n)
+				printf("\n");
+			else
+				printf(" ");
+		}
+	}
 }
