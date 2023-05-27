@@ -1,4 +1,5 @@
 #include <ctype.h>
+#include "main.h"
 /**
  * _isupper - checks for uppercase
  * @c: parameter to check
@@ -9,7 +10,12 @@
  */
 int _isupper(int c)
 {
-	if (isupper(c);)
-		return (1);
+	int i;
+
+	for (i = 65; i < 90; i++)
+	{
+		if (i == c)
+			return (1);
+	}
 	return (0);
 }
