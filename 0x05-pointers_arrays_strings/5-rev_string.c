@@ -8,12 +8,12 @@
  */
 void rev_string(char *s)
 {
-	int len = _strlen(s) - 1, counter;
+	int counter = 0, len = _strlen(s);
 	char newstr[len];
 
-	while (*(s + len) > != '')
+	while (*(s + len - 1) != '')
 	{
-		newstr[counter] = *(s + len);
+		newstr[counter] = *(s + len - 1);
 		counter ++;
 		len--;
 	}
