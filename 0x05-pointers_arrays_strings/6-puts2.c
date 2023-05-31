@@ -9,7 +9,6 @@
  */
 void puts2(char *str)
 {
-	char charc;
 	int counter = 0;
 
 	while (*(str + counter) != '\n')
