@@ -28,10 +28,9 @@ char *_strncat(char *dest, char *src, int n)
 	
 	for (len = 0; len < j; len++)
 	{
-		if (len < n + 1)
-		{
-			*(dest + i + len) = *(src + len);
-		}
+		if (len > n)
+			break;
+		*(dest + i + len) = *(src + len);
 	}
 	return (dest);
 }
