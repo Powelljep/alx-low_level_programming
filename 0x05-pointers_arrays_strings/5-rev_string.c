@@ -8,12 +8,14 @@
  */
 void rev_string(char *s)
 {
-	int counter = 0, len = _sitrlen(s);
-	char newstr[] = {s[len-1]};
+	int len = _sitrlen(s), counter = 0;
+	char val;
 
 	while (len-1 > 0)
 	{
-		newstr[counter] = *(s + len - 2);
+		val = *(s + counter);
+		*(s + counter) = *(s + len - 1);
+		*(s + len -1) = val
 		counter ++;
 		len--;
 	}
