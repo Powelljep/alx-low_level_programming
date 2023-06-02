@@ -24,7 +24,10 @@ int _strcmp(char *s1, char *s2)
 		if (*(s1 + k) - *(s2 + k) == 0)
 			continue;
 		else
+		{
 			val = *(s1 + k) - *(s2 + k);
+			break;
+		}
 	}
 	return (val);
 }
