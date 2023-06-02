@@ -9,17 +9,30 @@
  */
 char *string_toupper(char *str)
 {
-	int i = 0, j;
+	int i, j = 65, k = 0, l = 122, m, lower[27], upper[27];
 
-	while (*(str + i) != '\0')
+	for (i = 0; i < 27; i++)
 	{
-		for (j = 65; j <= 90; j++)
+		*(lower + i) = l;
+		*(upper + i) = j;
+		l++;
+		j++;
+	}
+	*(lower + i) = '\0';
+	*(upper + i) = '\0';
+	
+	while (*(str + k) != '\0')
+	{
+		for (m = 0; m < 27; m++)
 		{
-			if (*(str + i) - 0 == j)
+			if (*(str + k) == *(upper + m))
 			{
 				continue;
+			} else if(*(str + k) == *(lower + m))
+			{
+				*(str + k) = *(upper + m);
 			}
 		}
-		i++;
 	}
+	return (str);
 }
