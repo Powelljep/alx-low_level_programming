@@ -17,5 +17,4 @@ void reverse_array(int *a, int n)
 		elem_tracker--;
 		i++;
 	}
-	return (a);
 }
