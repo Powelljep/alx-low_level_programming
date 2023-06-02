@@ -24,7 +24,7 @@ char *string_toupper(char *str)
 			if (*(str + k) == *(upper + m))
 			{
 				continue;
-			} else if(*(str + k) == *(lower + m))
+			} else if (*(str + k) == *(lower + m))
 			{
 				*(str + k) = *(upper + m);
 			}
