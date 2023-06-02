@@ -9,7 +9,7 @@
 char *cap_string(char *str)
 {
         int sep[] = {32, 9, 10, 32, 59, 46, 33, 63, 34, 40, 41, 123, 125};
-        int i = 0, j, k = 65, l = 0, m = 97, caps[26] small[26];
+        int i = 0, j, k = 65, l = 0, m = 97, n, o = 0, caps[26] small[26];
         
         for (j = 0; j < 26; j++)
         {
@@ -18,12 +18,14 @@ char *cap_string(char *str)
         }
         while (*(str + i) != '\0')
         {
-                while (*(sep + l) != '\0')
-                {
-                        if (*(str + i) - 0 == *(sep + l))
-				continue;
-                        l++;
-                }
+                for(n = 0; n < 26; n++)
+		{
+			while (*(sep + 0) != '\0')
+			{
+				if(*(str + i) - 0 == *(sep + o))
+					*(str 
+			}
+		}
 
                 i++;
         }
