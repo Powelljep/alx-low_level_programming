@@ -17,7 +17,7 @@ char *leet(char *str)
 	{
 		for(j = 0; j < 5; j++)
 		{
-			if (*(str + i) == *(small + j) || *(str + i) == *(small + j))
+			if (*(str + i) == *(small + j) || *(str + i) == *(caps + j))
 				*(str + i) = *(nums + j);
 		}
 		i++;
