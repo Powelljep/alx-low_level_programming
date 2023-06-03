@@ -15,11 +15,10 @@ char *leet(char *str)
 
 	while (*(str + i) != '\0')
 	{
-		while (j < 5)
+		for(j = 0; j < 5; j++)
 		{
 			if (*(str + i) == *(small + j) || *(str + i) == *(small + j))
 				*(str + i) = *(nums + j);
-			j++;
 		}
 		i++;
 	}
