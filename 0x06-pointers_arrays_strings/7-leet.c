@@ -9,19 +9,18 @@
 char *leet(char *str)
 {
 	int i = 0, j = 0;
+	char small[] = {'a', 'e', 'o', 't', 'l'};
+	char caps[] = {'A', 'E', 'O', 'T', 'L'};
+	char nums[] = {'4', '3', '0', '7', '1'};
 
 	while (*(str + i) != '\0')
 	{
-		if (*(str + i) == 'a' || *(str + i) == 'A')
-			*(str + i) = '4';
-		if (*(str + i) == 'e' || *(str + i) == 'E')
-			*(str + i) = '3';
-		if (*(str + i) == 'o' || *(str + i) == 'O')
-			*(str + i) = '0';
-		if (*(str + i) == 't' || *(str + i) == 'T')
-			*(str + i) = '7';
-		if (*(str + i) == 'l' || *(str + i) == 'L')
-			*(str + i) = '1';
+		while (j < 5)
+		{
+			if (*(str + i) == *(small + j) || *(str + i) == *(small + j))
+				*(str + i) = *(nums + j);
+			j++;
+		}
 		i++;
 	}
 	return (str);
