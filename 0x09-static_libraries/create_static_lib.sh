@@ -1,3 +1,3 @@
 #!/bin/bash
-gcc -c -Wall -Werror -Wextra -L. *.c
-ar -rcs liball.a *.o
+find .. -type f -name '*.c' -exec gcc -c {} \;
+ar -rc liball.a *.o
