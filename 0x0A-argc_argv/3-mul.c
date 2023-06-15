@@ -17,9 +17,9 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		num1 = (int)argv[1];
-		num2 = (int)argv[2];
-		sum = num1 * num2;
+		num1 = (int)*argv[1];
+		num2 = (int)*argv[2];
+		um = num1 * num2;
 	}
 	printf("%d", sum);
 	return (0);
