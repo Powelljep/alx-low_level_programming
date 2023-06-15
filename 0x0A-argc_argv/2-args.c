@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 			{
 				if (*(nest + j) == (char)32)
 				{
-					putchar('\n);
+					putchar('\n');
 					continue;
 				}
 				putchar(*(nest + j));
