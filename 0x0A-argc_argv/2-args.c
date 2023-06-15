@@ -11,7 +11,6 @@
 int main(int argc, char *argv[])
 {
 	int i, j = 0;
-	char *nest[];
 
 	if (argc > 0 && argv[0])
 	{
