@@ -10,25 +10,13 @@
  */
 int main(int argc, char *argv[])
 {
-	int i, j = 0;
+	int i;
 
 	if (argc > 0 && argv[0])
 	{
 		for (i = 0; i < argc; i++)
 		{
-			char *nest = *(argv + i);
-
-			while (*(nest + j) != '\0')
-			{
-				if (*(nest + j) == (char)32)
-				{
-					putchar('\n');
-					continue;
-				}
-				putchar(*(nest + j));
-				j++;
-			}
-			j = 0;
+			printf("%s\n", *(argv + i));
 			
 		}
 	}
