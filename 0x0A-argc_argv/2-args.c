@@ -19,9 +19,9 @@ int main(int argc, char *argv[])
 		{
 			char *nest = *(argv + i);
 
-			while (*(nest + j) != \0)
+			while (*(nest + j) != '\0')
 			{
-				if (*(nest + j) == " ")
+				if (*(nest + j) == (char)32)
 				{
 					putchar('\n);
 					continue;
