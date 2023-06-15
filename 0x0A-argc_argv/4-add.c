@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 {
 	int sum = 0, i;
 
-	if (arg < 2)
+	if (argc < 2)
 	{
 		printf("%d\n", sum);
 	}
