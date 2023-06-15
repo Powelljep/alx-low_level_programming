@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
 	{
 		for (i = 0; i < argc; i++)
 		{
-			char *nest[] = *(argv + i);
+			char *nest = *(argv + i);
 
 			while (*(nest + j) != \0)
 			{
