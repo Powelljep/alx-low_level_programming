@@ -17,13 +17,9 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		num1 = (int)*argv[1];
-		num2 = (int)*argv[2];
+		num1 = atoi(argv[1]);
+		num2 = atoi(argv[2]);
 		sum = num1 * num2;
-		printf("%d", num1);
-		printf("%d", num2);
-		printf("%d", sum);
-		printf("%d\n", sum);
 		return (0);
 	}
 }
