@@ -20,6 +20,9 @@ int main(int argc, char *argv[])
 		num1 = (int)*argv[1];
 		num2 = (int)*argv[2];
 		sum = num1 * num2;
+		printf(num1);
+		printf(num2);
+		printf(sum);
 		printf("%d\n", sum);
 		return (0);
 	}
