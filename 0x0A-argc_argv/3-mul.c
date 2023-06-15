@@ -15,6 +15,12 @@ int main(int argc, char *argv[])
 		printf("Error");
 		return (1);
 	}
+	else
+	{
+		num1 = (int)argv[1];
+		num2 = (int)argv[2];
+		sum = num1 * num2;
+	}
 	printf("%d", sum);
 	return (0);
 }
