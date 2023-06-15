@@ -8,12 +8,12 @@
  */
 int main(int argc, char *argv[])
 {
-	int num1 = argv[1], num2 = argv[2], sum = num1 * num2;
+	int num1 = (int)argv[1], num2 = (int)argv[2], sum = num1 * num2;
 
-	if (argc < 3 && argv[])
+	if (argc < 3)
 	{
 		printf("Error");
-		return (1)
+		return (1);
 	}
 	printf("%d", sum);
 	return (0);
