@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 		num1 = (int)*argv[1];
 		num2 = (int)*argv[2];
 		sum = num1 * num2;
+		printf("%d\n", sum);
+		return (0);
 	}
-	printf("%d\n", sum);
-	return (0);
 }
