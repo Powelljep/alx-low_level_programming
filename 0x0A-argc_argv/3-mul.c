@@ -8,7 +8,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int num1 = (int)argv[1], num2 = (int)argv[2], sum = num1 * num2;
+	int num1, num2, sum;
 
 	if (argc < 3)
 	{
@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
 	{
 		num1 = (int)*argv[1];
 		num2 = (int)*argv[2];
-		um = num1 * num2;
+		sum = num1 * num2;
 	}
 	printf("%d", sum);
 	return (0);
