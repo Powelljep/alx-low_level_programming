@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 
 	if (argc < 3)
 	{
-		printf("Error");
+		printf("Error\n");
 		return (1);
 	}
 	else
@@ -21,6 +21,6 @@ int main(int argc, char *argv[])
 		num2 = (int)*argv[2];
 		sum = num1 * num2;
 	}
-	printf("%d", sum);
+	printf("%d\n", sum);
 	return (0);
 }
