@@ -20,7 +20,7 @@ void rev_string(char *s)
 		j = (i - 1) / 2 + 1;
 	else
 		j = i / 2;
-	while (j > -1)
+	while (j > 0)
 	{
 		sval = *(s + k);
 		*(s + k) = *(s + i);
