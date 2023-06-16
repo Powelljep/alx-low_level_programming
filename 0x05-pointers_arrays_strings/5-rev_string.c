@@ -9,24 +9,19 @@
  */
 void rev_string(char *s)
 {
-	int i = 0, j = 0, k = 0;
+	int n = 0, i = 0, j = 0, k = 0;
 	char sval;
 
 	while (*(s + i) != '\0')
 	{
-		i++;
+		n++;
 	}
-	if (i % 2 > 0)
-		j = i / 2 + 1;
-	else
-		j = i / 2;
-	while (j > 0)
+
+	while (*(s + i) != '\0' )
 	{
-		sval = *(s + k);
-		*(s + k) = *(s + i);
-		*(s + i) = sval;
-		j--;
-		i--;
+		*(s + n) = *(s + i);
+		i++;
+		n--;
 	}
 
 }
