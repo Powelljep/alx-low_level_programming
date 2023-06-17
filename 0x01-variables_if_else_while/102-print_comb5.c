@@ -20,14 +20,10 @@ int main(void)
 				{
 					if (i == 48 && j == 48 && k == 48 && l == 48)
 						continue;
-					if (k == 48 && l == 48)
-						continue;
-					if (j == 49 && l == 49)
-						continue;
 					putchar(i);
-					putchar(j);
-					putchar(32);
 					putchar(k);
+					putchar(32);
+					putchar(j);
 					putchar(l);
 					if (i < 58 && j < 57 && k < 58 && l < 58)
 					{
