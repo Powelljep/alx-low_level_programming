@@ -30,6 +30,8 @@ int main(void)
 						putchar(44);
 						putchar(32);
 					}
+					if (k == 57 && l == 57)
+                                                l = 48;
 				}
 			}
 		}
