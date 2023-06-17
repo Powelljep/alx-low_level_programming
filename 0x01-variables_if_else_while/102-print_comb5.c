@@ -22,7 +22,7 @@ int main(void)
 						continue;
 					if (k == 48 && l == 48)
 						continue;
-					if (j == l)
+					if (j == 49 && l == 49)
 						continue;
 					putchar(i);
 					putchar(j);
