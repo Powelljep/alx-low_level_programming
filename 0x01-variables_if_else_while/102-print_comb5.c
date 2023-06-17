@@ -22,7 +22,7 @@ int main(void)
 					putchar(j);
 					putchar(32);
 					putchar(k);
-					putchar(l);				
+					putchar(l);
 					if (i < 58 && j < 57 && k < 58 && l < 58)
 					{
 						putchar(44);
