@@ -16,8 +16,10 @@ int main(void)
 		{
 			for (k = 48; k < 58; k++)
 			{
-				for (l = 49; l < 58; l++)
+				for (l = 48; l < 58; l++)
 				{
+					if (i == 48 && j == 48 && k == 48 && l == 48)
+						continue;
 					putchar(i);
 					putchar(j);
 					putchar(32);
