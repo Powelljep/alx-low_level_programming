@@ -11,11 +11,8 @@
  * is zero if n is 0 or is negathive otherwise.
  * Return: returns integer value of 0 if the program ran succesfully
  */
-void positive_or_negative(int i)
+void positive_or_negative(int n)
 {
-        srand(time(0));
-        n = rand() - RAND_MAX / 2;
-        /* your code goes there */
         if (n > 0)
         {
                 printf("%d is positive\n", n);
