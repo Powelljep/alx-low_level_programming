@@ -1,5 +1,6 @@
 #ifndef FUN_POINTERS_H
 #define FUN_POINTERS_H
+#include <stddef.h>
 
 void print_name(char *name, void (*f)(char *));
 void print_name_as_is(char *name);
