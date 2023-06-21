@@ -9,6 +9,7 @@
 int main(void)
 {
 	char *file = __FILE__;
+	int i = 0;
 
 	while(*(file + i) != '\0')
 	{
