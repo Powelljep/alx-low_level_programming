@@ -13,7 +13,7 @@ int main(void)
 
 	while(*(file + i) != '\0')
 	{
-		_putchar(*(file + i);
+		_putchar(*(file + i));
 	}
 	_putchar('\n');
 	return (0);
