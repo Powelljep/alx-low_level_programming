@@ -10,6 +10,6 @@
  */
 void print_name(char *name, void (*f)(char *))
 {
-	f((int)(*name));
+	f((char)(*name));
 
 }
