@@ -8,12 +8,6 @@
  */
 int main(void)
 {
-	char *file = __FILE__;
-
-	while(*(file + i) != '\0')
-	{
-		_putchar(*(file + i);
-	}
-	_putchar('\n');
+	printf(__FILE__);
 	return (0);
 }
