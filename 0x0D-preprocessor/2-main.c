@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include "main.h"
+
+/**
+ * main - prints the name of the file it was compiled from
+ *
+ * Return: 0 on successful compilation.
+ */
+int main(void)
+{
+	printf(__FILE__);
+	return (0);
+}
