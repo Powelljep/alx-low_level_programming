@@ -9,10 +9,10 @@
  *
  * Description: description to define dog
  */
-struct Dog
+struct dog
 {
 	char *name;
-	float *age;
+	float age;
 	char *owner;
 }
 
