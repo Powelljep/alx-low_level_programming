@@ -8,7 +8,12 @@
  */
 int _isdigit(int c)
 {
-	if(isdigit(c))
-		return (1);
+	int i;
+
+	for (i = 49; i < 58; i++)
+	{
+		if (c == i)
+			return 1;
+	}
 	return (0);
 }
