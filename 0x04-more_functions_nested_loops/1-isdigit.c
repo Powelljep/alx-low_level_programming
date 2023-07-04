@@ -13,7 +13,7 @@ int _isdigit(int c)
 	for (i = 48; i < 58; i++)
 	{
 		if (c == i)
-			return 1;
+			return (1);
 	}
 	return (0);
 }
