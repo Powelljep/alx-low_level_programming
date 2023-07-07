@@ -5,7 +5,7 @@
  * @argv: argument vector
  *
  * Description: a program that prints all arguments it receives.
- * Return: returns 0 if the programs runs successfuly or 
+ * Return: returns 0 if the programs runs successfuly or
  * any other number otherwise
  */
 int main(int argc, char *argv[])
@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 	{
 		for (i = 0; i < argc; i++)
 		{
-			printf("%s\n", *(argv + i));	
+			printf("%s\n", *(argv + i));
 		}
 	}
 	return (0);
