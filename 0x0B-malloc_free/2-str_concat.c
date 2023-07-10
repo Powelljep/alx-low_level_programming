@@ -38,5 +38,6 @@ char *str_concat(char *s1, char *s2)
 	{
 		*(p + i++) = *(s2 + l);
 	}
+	*(p + (i + 1)) = '\0';
 	return (p);
 }
