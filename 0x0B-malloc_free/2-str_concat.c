@@ -1,4 +1,4 @@
-#include <stdlibi.h>
+#include <stdlib.h>
 #include "main.h"
 /**
  * str_concat -  concatenates two strings.
