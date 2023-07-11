@@ -9,21 +9,20 @@
  */
 void rev_string(char *s)
 {
-	int n = 0, i = 0;
-	char elem;
-
+	int i = 0, j = 0;
+	char *p;
+	
 	while (*(s + i) != '\0')
 	{
-		n++;
-	}
-
-	while (*(s + i) != '\0')
-	{
-		elem = *(s + i);
-		*(s + i) = *(s + n);
-		*(s + n) = elem;
 		i++;
-		n--;
 	}
-
+	for (i; i > -1; i--)
+	{
+		*(p + j) = *(s + i);
+	}
+	*(p + j + 1) = '\0';
+	for (i = 0; i < (j + 1) ; i++)
+	{
+		*(s + i) = *(p + i);
+	}
 }
