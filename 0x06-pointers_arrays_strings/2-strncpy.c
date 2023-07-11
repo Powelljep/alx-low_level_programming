@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * _strncpy -  a function that copies a string
- * @dest: first param to copy from
- * @src: second param to copy to.
+ * @dest: first param to copy to
+ * @src: second param to copy from.
  * @n: part of the string to copy to dest
  *
  * Description:a function that copies a string.
@@ -13,21 +13,18 @@ char *_strncpy(char *dest, char *src, int n)
 	int i, j, k;
 
 	i = 0;
-	while (*(dest + i)!= '\0')
+	while (*(src + i) != '\0')
 	{
 		i++;
 	}
+	if (n == 0)
+		return (dest);
+	for (j = 0; j < i; j++)
+	{
+		if (j == n)
+			break;
+		*(dest + j) = *(src + j);
+	}
 
-	j = 0;
-	while (*(src + j) != '\0')
-	{
-		j++;
-	}
-	if (n >= i)
-		return (src);
-	for (k = 0; k < n; k++)
-	{
-		*(dest + k) = *(src + k);
-	}
 	return (dest);
 }
