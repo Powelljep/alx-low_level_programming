@@ -9,12 +9,18 @@
  */
 void reverse_array(int *a, int n)
 {
-	int elem_tracker = n, i = 0;
+	int j = 0, i = 0;
+	int *p;
 
 	while (i < n)
 	{
-		*(a + i) = *(a + elem_tracker);
-		elem_tracker--;
+		*(p + i) = *(a + i);
 		i++;
+	}
+	while (j < n)
+	{
+		*(a + j) = *(p + (i - 1));
+		i--;
+		j++;
 	}
 }
