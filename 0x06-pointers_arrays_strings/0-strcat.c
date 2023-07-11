@@ -10,23 +10,19 @@
 char *_strcat(char *dest, char *src)
 {
 	int i, j = 0, len;
-	
+
 	while (*(dest + j) != '\0')
 	{
 		j++;
 	}
-	
 	i = 0;
-
 	while (*(src + i) != '\0')
 	{
 		i++;
 	}
-
 	for (len = 0 ; len <= i; len++)
 	{
 		*(dest + j + len) = *(src + len);
 	}
-	
 	return (dest);
 }
