@@ -10,19 +10,15 @@
  */
 char *_strncpy(char *dest, char *src, int n)
 {
-	int i, j, k;
+	int i, j;
 
 	i = 0;
 	while (*(src + i) != '\0')
 	{
 		i++;
 	}
-	if (n == 0)
-		return (dest);
-	for (j = 0; j < i; j++)
+	for (j = 0; j < n; j++)
 	{
-		if (j == n)
-			break;
 		*(dest + j) = *(src + j);
 	}
 
