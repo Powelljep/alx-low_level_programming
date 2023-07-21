@@ -27,7 +27,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 			printf("%d", *separator);
 			while(*(separator + j) != '\0')
 			{
-				printf(*separator);
+				printf("%c", *separator);
 				j++;
 			}
 			j = 0;
