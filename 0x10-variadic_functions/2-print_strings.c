@@ -11,29 +11,25 @@
 void print_strings(const char *separator, const unsigned int n, ...)
 {
 	va_list params;
-	int i, j = 0, k = 0;
+	int i;
 	char *str;
 
 	va_start(params, n);
 
-	for (i = 0; i < (signed int) n; i++)
+	for (i = 0; i < (int)n; i++)
 	{
-		*str = va_arg(params, int);
-		while (*(str + j) != '\0')
+		str = va_arg(params, char *);
+
+		if (str != NULL)
 		{
-			printf("%c", *(str + j));
-			j++;
-			if (separator != NULL)
+			printf("%s", str);
+			if (i < (int)n - 1 && separator != NULL)
 			{
-				while (*(separator + k) != '\0')
-				{
-					if(*(str + j) == '\0')
-						break;
-					printf("%c", *(separator + k));
-				}
+				printf("%s", separator);
 			}
 		}
-		j = 0;
 	}
+
+	va_end(params);
 	printf("\n");
 }
