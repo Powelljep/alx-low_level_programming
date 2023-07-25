@@ -24,7 +24,6 @@ int **alloc_grid(int width, int height)
 		ptp[i] = malloc(sizeof(int) * width);
 		if (!ptp[i])
 		{
-			// Free previously allocated memory before returning NULL
 			for (j = 0; j < i; j++)
 				free(ptp[j]);
 			free(ptp);
