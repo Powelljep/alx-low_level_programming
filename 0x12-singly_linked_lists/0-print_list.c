@@ -10,16 +10,15 @@
 size_t print_list(const list_t *h)
 {
 	size_t numofnodes = 0;
-	unsigned int i = 0;
 
-	while (h->next != NULL)
+	while (h != NULL)
 	{
 		if (h->str == NULL)
 			printf("[0] (nil)");
 		else
-			printf("%c", h->str);
-		numofnode++;
-		h->next;
+			printf("%s", h->str);
+		numofnodes++;
+		h = h->next;
 	}
 	return (numofnodes);
 }
