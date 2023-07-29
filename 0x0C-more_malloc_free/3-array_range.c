@@ -12,10 +12,10 @@ int *array_range(int min, int max)
 	int elems = (abs(max) - abs(min)) + 1;
 
 	if (min > max)
-		return (int *)(NULL);
+		return ((int *)(NULL));
 	p = malloc(sizeof(int) * elems);
 	if (p == NULL)
-		return (int *)(NULL);
+		return ((int *)(NULL));
 
 	while (min <= elems)
 	{
