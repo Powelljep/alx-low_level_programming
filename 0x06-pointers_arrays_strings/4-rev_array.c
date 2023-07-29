@@ -11,9 +11,8 @@
 void reverse_array(int *a, int n)
 {
 	int i, j = n - 1;
-	int * p;
-	
-	for (i = 0; i < n; i++)
+	int *p = (int)(*(a + (n-1)));
+	for (i = 1; i < n; i++)
 	{
 		*(p + i) = *(a + j);
 		j--;
