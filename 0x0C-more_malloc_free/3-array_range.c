@@ -20,8 +20,8 @@ int *array_range(int min, int max)
 	while (min <= elems)
 	{
 		*(p + i) = min;
-		min++;
 		i++;
+		min++;
 	}
 	return (p);
 }
