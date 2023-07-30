@@ -1,3 +1,5 @@
+#include <stdlib.h>
+#include <string.h>
 #include "dog.h"
 
 /**
@@ -12,7 +14,15 @@
  */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	d->name = name;
+	if (name == NULL || owner == NULL)
+		return (NULL);
+	d->name = strdup(name);
+	d->owner = strdup(owner);
+	if (name == NULL || owner == NULL)
+	{
+		free(d->name);
+		free(d->owner);
+		return;
+	}
 	d->age = age;
-	d->owner = owner;
 }
