@@ -7,7 +7,7 @@
  * @new_size:  the new size, in bytes of the new memory block
  *
  * Description: The contents will be copied to the newly allocated space,
- * in the range from the start of ptr up to the minimum of the old 
+ * in the range from the start of ptr up to the minimum of the old
  * and new sizes
  * Return: a pointer to the newly allocated memory
  */
