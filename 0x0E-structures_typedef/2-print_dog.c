@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "dog.h"
 /**
- * print_dopi - a function that prints a struct dog
+ * print_dog - a function that prints a struct dog
  * @d: struct dog to print
  *
  * Description:a function that prints a struct dog
