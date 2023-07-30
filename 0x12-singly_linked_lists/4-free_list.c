@@ -9,7 +9,10 @@
  */
 void free_list(list_t *head)
 {
-	list_t *p = head;
+	list_t *p = head, * team = p->next;
 
-	while(p
+	while(p->next != NULL)
+	{
+		
+	}
 }
