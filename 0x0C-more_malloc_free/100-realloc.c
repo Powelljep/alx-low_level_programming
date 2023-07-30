@@ -9,7 +9,7 @@
  * Description: The contents will be copied to the newly allocated space,
  * in the range from the start of ptr up to the minimum of the old 
  * and new sizes
- * Returns: a pointer to the newly allocated memory
+ * Return: a pointer to the newly allocated memory
  */
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
