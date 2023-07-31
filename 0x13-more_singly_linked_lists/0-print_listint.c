@@ -10,7 +10,7 @@
 size_t print_listint(const listint_t *h)
 {
 	int numofnodes = 0;
-	listint_t *p = h;
+	const listint_t *p = h;
 
 	while (p->next != NULL)
 	{
