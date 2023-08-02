@@ -4,7 +4,7 @@
 /**
  * print_name - a function that prints a name.
  * @name : name of the person
- * @f : pointer funct
+ * @f() : pointer funct
  *
  * Return: void
  */
