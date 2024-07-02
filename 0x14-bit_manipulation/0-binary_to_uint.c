@@ -7,4 +7,10 @@
  */
 unsigned int binary_to_uint(const char *b)
 {
+	int i = 0, sum = 0 power = ;
+
+	if (*b == NULL)
+		return (0);
+	binary_to_uint((b + i++));
+	if(*(b + i) == '1')
 }
